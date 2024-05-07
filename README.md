@@ -56,18 +56,6 @@
 
 </details>
 
-@startuml
-
-package "Mini Bank Project" {
-[Frontend] <<Java>>
-[Middle-layer] <<Java>>
-[Backend] <<Java>>
-
-    [Frontend] --> [Middle-layer]
-    [Middle-layer] --> [Backend]
-}
-
-@enduml
 
 ## <a id="technology" style="color: gray">Используемые технологии</a>
 
